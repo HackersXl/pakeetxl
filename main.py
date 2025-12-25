@@ -149,8 +149,7 @@ def main():
                 "balance_expired_at": balance_expired_at,
                 "point_info": point_info
             }
-
-            total_remaining_quota, total_quota, is_unlimited = get_my_packages_quota()
+            
             show_main_menu(profile, total_remaining_quota, total_quota, is_unlimited)
 
             choice = input(f"{bcolors.BOLD}Pilih menu: {bcolors.ENDC}")
