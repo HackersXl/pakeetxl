@@ -11,11 +11,11 @@ pkg install git -y
 ```
 3. Clone this repo
 ```
-git clone https://github.com/kejuashuejia/reedem
+git clone https://github.com/HackersXl/pakeetxl
 ```
 4. Open the folder
 ```
-cd reedem
+cd pakeetxl
 ```
 5. Setup
 ```
