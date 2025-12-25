@@ -1,11 +1,11 @@
-from app.colors import bcolors
+from dotenv import load_dotenv
 
 from app.service.git import check_for_updates
+load_dotenv()
 
-import sys, json, time, os, requests
-from collections import Counter
+import sys, json
 from datetime import datetime
-from app.menus.util import clear_screen, pause, format_quota_byte
+from app.menus.util import clear_screen, pause
 from app.client.engsel import (
     get_balance,
     get_tiering_info,
