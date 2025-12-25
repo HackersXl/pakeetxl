@@ -1,0 +1,258 @@
+[
+    {
+        "family_name": "Unlimited Turbo",
+        "family_code": "08a3b1e6-8e78-4e45-a540-b40f06871cfe",
+        "is_enterprise": false,
+        "variant_name": "For Xtra Combo",
+        "option_name": "TikTok",
+        "order": 6
+    },
+    {
+        "family_name": "Newcomer Promo",
+        "family_code": "6bc5a34d-7901-4bf9-8629-5bd7de28c89f",
+        "is_enterprise": false,
+        "variant_name": "Xtra Combo",
+        "option_name": "1GB + 1GB",
+        "order": 1
+    },
+    {
+        "family_name": "Akrab Unlimited 4 Members",
+        "family_code": "7b24c274-3aa8-42df-ae80-e4e94e33e331",
+        "is_enterprise": false,
+        "variant_name": "Akrab",
+        "option_name": "Akrab Unlimited",
+        "order": 4
+    },
+    {
+        "family_name": "Akrab Unlimited 5 Members",
+        "family_code": "7b24c274-3aa8-42df-ae80-e4e94e33e331",
+        "is_enterprise": false,
+        "variant_name": "Akrab",
+        "option_name": "Akrab Unlimited",
+        "order": 3
+    },
+    {
+        "family_name": "Akrab - Akrab myFi 10GB",
+        "family_code": "7b24c274-3aa8-42df-ae80-e4e94e33e331",
+        "is_enterprise": false,
+        "variant_name": "Akrab",
+        "option_name": "10GB",
+        "order": 2
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ Infinity",
+        "order": 1
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ Maxima",
+        "order": 2
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ Pro",
+        "order": 3
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ Prime",
+        "order": 4
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ Starter",
+        "order": 5
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ E-Commerce",
+        "order": 6
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ Starter",
+        "order": 7
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ Prime",
+        "order": 8
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ Pro",
+        "order": 9
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ Maxima",
+        "order": 10
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ Infinity",
+        "order": 11
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ E-Commerce",
+        "order": 12
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ E-Commerce",
+        "order": 13
+    },
+    {
+        "family_name": "BIZ Prepaid",
+        "family_code": "ae2707e6-2996-45f8-944a-8a391e956f28",
+        "is_enterprise": true,
+        "variant_name": "BIZ E-Commerce",
+        "option_name": "BIZ E-Commerce",
+        "order": 14
+    },
+    {
+        "family_name": "Akrab - Akrab myFi 100GB",
+        "family_code": "7b24c274-3aa8-42df-ae80-e4e94e33e331",
+        "is_enterprise": false,
+        "variant_name": "Akrab",
+        "option_name": "100GB",
+        "order": 1
+    },
+    {
+        "family_name": "Xtra Combo Plus",
+        "family_code": "f6197a91-343c-4154-8d6a-b35f2110ce58",
+        "is_enterprise": false,
+        "variant_name": "Reguler",
+        "option_name": "20GB",
+        "order": 18
+    },
+    {
+        "family_name": "Xtra Combo Plus",
+        "family_code": "23b71540-8785-4abe-816d-e9b4efa48f95",
+        "is_enterprise": false,
+        "variant_name": "Reguler",
+        "option_name": "8.5GB",
+        "order": 16
+    },
+    {
+        "family_name": "XTRA Combo",
+        "family_code": "6fda76ee-e789-4897-89fb-9114da47b805",
+        "is_enterprise": false,
+        "variant_name": "Special For You",
+        "option_name": "10GB+10GB",
+        "order": 18
+    },
+    {
+        "family_name": "Xtra Combo Plus",
+        "family_code": "23b71540-8785-4abe-816d-e9b4efa48f95",
+        "is_enterprise": false,
+        "variant_name": "Reguler",
+        "option_name": "5gb",
+        "order": 17
+    },
+    {
+        "family_name": "XTRA Combo",
+        "family_code": "6fda76ee-e789-4897-89fb-9114da47b805",
+        "is_enterprise": false,
+        "variant_name": "Special For You",
+        "option_name": "10GB+10GB",
+        "order": 44
+    },
+    {
+        "family_name": "Bebas Puas - 30GB",
+        "family_code": "eb2f99e5-4fa3-4f34-951f-6769ec9e38a1",
+        "is_enterprise": false,
+        "variant_name": "Bebas Puas",
+        "option_name": "30GB",
+        "order": 24
+    },
+    {
+        "family_name": "Akrab - 15GB for 2 Members",
+        "family_code": "6e469cb2-443d-402f-ba77-681b032ead6a",
+        "is_enterprise": false,
+        "variant_name": "Akrab",
+        "option_name": "16GB",
+        "order": 12
+    },
+    {
+        "family_name": "Bebas Puas - 45.00GB",
+        "family_code": "eb2f99e5-4fa3-4f34-951f-6769ec9e38a1",
+        "is_enterprise": false,
+        "variant_name": "Bebas Puas",
+        "option_name": "45GB",
+        "order": 23
+    },
+    {
+        "family_name": "Akrab - 15GB for 2 Members",
+        "family_code": "6e469cb2-443d-402f-ba77-681b032ead6a",
+        "is_enterprise": false,
+        "variant_name": "Akrab",
+        "option_name": "15GB",
+        "order": 6
+    },
+    {
+        "family_name": "Bebas Puas - 56GB",
+        "family_code": "eb2f99e5-4fa3-4f34-951f-6769ec9e38a1",
+        "is_enterprise": false,
+        "variant_name": "Bebas Puas",
+        "option_name": "56GB",
+        "order": 44
+    },
+    {
+        "family_name": "Xtra Combo Plus",
+        "family_code": "e0f9605b-5dad-486e-a378-cf40d5b7f2ba",
+        "is_enterprise": false,
+        "variant_name": "Regular",
+        "option_name": "18GB",
+        "order": 5
+    },
+    {
+        "family_name": "Xtra Combo Plus",
+        "family_code": "f6197a91-343c-4154-8d6a-b35f2110ce58",
+        "is_enterprise": false,
+        "variant_name": "Reguler",
+        "option_name": "10GB",
+        "order": 19
+    }
+]
