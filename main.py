@@ -642,6 +642,6 @@ if __name__ == "__main__":
 
         main()
     except KeyboardInterrupt:
-        print(f"\n{bcolors.FAIL}Exiting the application.{bcolors.ENDC}")
+        print("\nExiting the application.")
     # except Exception as e:
     #     print(f"An error occurred: {e}")
