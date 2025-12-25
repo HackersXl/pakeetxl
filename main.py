@@ -132,8 +132,6 @@ def main():
                 "point_info": point_info
             }
 
-            show_main_menu(profile)
-
             choice = input("Pilih menu: ")
             # Testing shortcuts
             if choice.lower() == "t":
