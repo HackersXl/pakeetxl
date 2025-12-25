@@ -121,6 +121,12 @@ def show_main_menu(profile, total_remaining_quota, total_quota, is_unlimited):
     print("00. Bookmark Paket")
     print(f"99. {bcolors.FAIL}Tutup aplikasi{bcolors.ENDC}")
     print(f"{bcolors.OKCYAN}{'-' * WIDTH}{bcolors.ENDC}")
+ ]
+
+    for key, desc in menu_items:
+        menu_table.add_row(key, desc)
+
+    console.print(Panel(menu_table, title="[neon_pink]MAIN MENU[/]", border_style="neon_cyan"))
 
 show_menu = True
 def main():
