@@ -19,7 +19,7 @@ cd pakeetxl
 ```
 5. Setup
 ```
-bash setup.sh
+pip install -r requirements.txt
 ```
 6. Run the script
 ```
