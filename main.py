@@ -635,7 +635,7 @@ def main():
 
 if __name__ == "__main__":
     try:
-        print(f"{bcolors.OKCYAN}Checking for updates...{bcolors.ENDC}")
+        print("Checking for updates...")
         need_update = check_for_updates()
         if need_update:
             pause()
