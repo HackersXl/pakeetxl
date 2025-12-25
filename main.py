@@ -29,7 +29,7 @@ from app.client.registration import dukcapil
 
 WIDTH = 55
 
-def ef show_main_m(profile, total_remaining_quota, total_quota, is_unlimited):
+def show_main_menu(profile, total_remaining_quota, total_quota, is_unlimited):
     clear_screen()
     print(f"{bcolors.HEADER}{'=' * WIDTH}{bcolors.ENDC}")
     expired_at_dt = datetime.fromtimestamp(profile["balance_expired_at"]).strftime("%Y-%m-%d")
@@ -101,8 +101,7 @@ def ef show_main_m(profile, total_remaining_quota, total_quota, is_unlimited):
     print("V. Validate msisdn")
     print("00. Bookmark Paket")
     print(f"99. {bcolors.FAIL}Tutup aplikasi{bcolors.ENDC}")
-olors.ENDC}")
-    print(f"{bcolors.OKCYAN}{'-' * WIDTH}{b
+    print(f"{bcolors.OKCYAN}{'-' * WIDTH}{bcolors.ENDC}")
 
 show_menu = True
 def main():
