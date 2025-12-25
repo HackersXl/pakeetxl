@@ -29,19 +29,57 @@ from app.client.registration import dukcapil
 
 WIDTH = 55
 
-def show_main_menu(profile):
+def show_main_menu(profile, total_remaining_quota, total_quota, is_unlimited):
     clear_screen()
-    print("=" * WIDTH)
+    print(f"{bcolors.HEADER}{'=' * WIDTH}{bcolors.ENDC}")
     expired_at_dt = datetime.fromtimestamp(profile["balance_expired_at"]).strftime("%Y-%m-%d")
-    print(f"Nomor: {profile['number']} | Type: {profile['subscription_type']}".center(WIDTH))
-    print(f"Pulsa: Rp {profile['balance']} | Aktif sampai: {expired_at_dt}".center(WIDTH))
-    print(f"{profile['point_info']}".center(WIDTH))
-    print("=" * WIDTH)
-    print("Menu:")
+    print(f"{bcolors.OKBLUE}Nomor: {profile['number']} | Type: {profile['subscription_type']}{bcolors.ENDC}".center(WIDTH + len(bcolors.OKBLUE) + len(bcolors.ENDC)))
+    print(f"{bcolors.OKBLUE}Pulsa: Rp {profile['balance']} | Aktif sampai: {expired_at_dt}{bcolors.ENDC}".center(WIDTH + len(bcolors.OKBLUE) + len(bcolors.ENDC)))
+    print(f"{bcolors.OKGREEN}{profile['point_info']}{bcolors.ENDC}".center(WIDTH + len(bcolors.OKGREEN) + len(bcolors.ENDC)))
+    
+    remaining_str = format_quota_byte(total_remaining_quota)
+    total_str = format_quota_byte(total_quota)
+    unlimited_str = " (unlimited)" if is_unlimited else ""
+    quota_info = f"Kuota : {remaining_str} / {total_str}{unlimited_str}"
+    colored_quota_info = f"{bcolors.OKGREEN}{quota_info}{bcolors.ENDC}"
+    print(colored_quota_info.center(WIDTH + len(bcolors.OKGREEN) + len(bcolors.ENDC)))
+
+    if is_unlimited:
+        bar_width = 40
+        bar = bcolors.OKGREEN + '█' * bar_width + bcolors.ENDC
+        progress_str = f"[{bar}]"
+        
+        uncolored_len = 2 + bar_width
+        padding = (WIDTH - uncolored_len) // 2
+        print(' ' * padding + progress_str)
+        
+    elif total_quota > 0:
+        percentage = (total_remaining_quota / total_quota) * 100
+        bar_width = 40
+        filled_length = int(bar_width * percentage / 100)
+        
+        if percentage > 50:
+            bar_color = bcolors.OKGREEN
+        elif percentage > 20:
+            bar_color = bcolors.WARNING
+        else:
+            bar_color = bcolors.FAIL
+
+        bar = bar_color + '█' * filled_length + bcolors.ENDC + '─' * (bar_width - filled_length)
+        
+        percentage_str = f" {percentage:.2f}%"
+        
+        uncolored_len = 2 + bar_width + len(percentage_str)
+        padding = (WIDTH - uncolored_len) // 2
+        
+        print(' ' * padding + f"[{bar}]" + percentage_str)
+
+    print(f"{bcolors.HEADER}{'=' * WIDTH}{bcolors.ENDC}")
+    print(f"{bcolors.BOLD}Menu:{bcolors.ENDC}")
     print("1. Login/Ganti akun")
     print("2. Lihat Paket Saya")
-    print("3. Beli Paket 🔥 HOT 🔥")
-    print("4. Beli Paket 🔥 HOT-2 🔥")
+    print(f"3. Beli Paket {bcolors.WARNING}🔥 HOT 🔥{bcolors.ENDC}")
+    print(f"4. Beli Paket {bcolors.WARNING}🔥 HOT-2 🔥{bcolors.ENDC}")
     print("5. Beli Paket Berdasarkan Option Code")
     print("6. Beli Paket Berdasarkan Family Code")
     print("7. Beli Semua Paket di Family Code (loop)")
@@ -52,13 +90,19 @@ def show_main_menu(profile):
     print("12. Store Family List")
     print("13. Store Packages")
     print("14. Redemables")
+    print(f"{bcolors.OKCYAN}{'-' * WIDTH}{bcolors.ENDC}")
+    print(f"{bcolors.BOLD}Bebas Puas:{bcolors.ENDC}")
+    print("15. Auto Reedem")
+    print("16. Custom loops Redeem BP")
+    print("17. Redeem by Target Quota")
+    print(f"{bcolors.OKCYAN}{'-' * WIDTH}{bcolors.ENDC}")
     print("R. Register")
     print("N. Notifikasi")
     print("V. Validate msisdn")
     print("00. Bookmark Paket")
-    print("99. Tutup aplikasi")
-    print("-------------------------------------------------------")
-
+    print(f"99. {bcolors.FAIL}Tutup aplikasi{bcolors.ENDC}")
+    print(f"{bcolors.OKCYAN}{'-' * WIDTH}{bcolors.ENDC}")
+    
 show_menu = True
 def main():
     
@@ -81,7 +125,8 @@ def main():
             
             profile = {
                 "number": active_user["number"],
-                "subscriber_id": active_user["subscriber_id"],
+                "number"],
+    : active_user["subscriber_id"],
                 "subscription_type": active_user["subscription_type"],
                 "balance": balance_remaining,
                 "balance_expired_at": balance_expired_at,
