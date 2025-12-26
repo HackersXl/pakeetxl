@@ -170,8 +170,8 @@
     {
         "family_name": "Conference",
         "family_code": "5dab52d5-6f02-4678-b72f-088396ceb113",
-        "is_enterprise": false,
-        "variant_name": "Conference 2GB",
+        "is_enterprise": true,
+        "variant_name": "Conference",
         "option_name": "2GB",
         "order": 1
     },
