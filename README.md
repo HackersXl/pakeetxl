@@ -11,11 +11,11 @@ pkg install git -y
 ```
 3. Clone this repo
 ```
-git clone https://github.com/HackersXl/pakeetxl
+git clone https://github.com/HackersXl/paketxl
 ```
 4. Open the folder
 ```
-cd pakeetxl
+cd paketxl
 ```
 5. Setup
 ```
