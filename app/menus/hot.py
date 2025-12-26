@@ -20,7 +20,8 @@ def show_hot_menu():
         print(f"{bcolors.BOLD}🔥 Paket  Hot 🔥{bcolors.ENDC}".center(WIDTH))
         print(f"{bcolors.HEADER}{'=' * WIDTH}{bcolors.ENDC}")
         
-        url = "https://api.baloenk.my.id/pg-hot.json"
+        with open("hot_data/hot.json", "r", encoding="utf-8") as f:
+            hot_packages = json.load(f)
         response = requests.get(url, timeout=30)
         if response.status_code != 200:
             print(f"{bcolors.FAIL}Gagal mengambil data hot package.{bcolors.ENDC}")
@@ -91,7 +92,8 @@ def show_hot_menu2():
         print(f"{bcolors.BOLD}🔥 Paket  Hot 2 🔥{bcolors.ENDC}".center(WIDTH))
         print(f"{bcolors.HEADER}{'=' * WIDTH}{bcolors.ENDC}")
         
-        url = "https://api.baloenk.my.id/pg-hot2.json"
+        with open("hot_data/hot2.json", "r", encoding="utf-8") as f:
+            hot_packages = json.load(f)
         response = requests.get(url, timeout=30)
         if response.status_code != 200:
             print(f"{bcolors.FAIL}Gagal mengambil data hot package.{bcolors.ENDC}")
