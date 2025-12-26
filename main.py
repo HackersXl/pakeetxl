@@ -29,7 +29,7 @@ from app.client.registration import dukcapil
 
 WIDTH = 55
 
-def def show_main_menu(profile, total_remaining_quota, total_quota, is_unlimited):
+def show_main_menu(profile, total_remaining_quota, total_quota, is_unlimited):
     clear_screen()
     print(f"{bcolors.HEADER}{'=' * WIDTH}{bcolors.ENDC}")
     expired_at_dt = datetime.fromtimestamp(profile["balance_expired_at"]).strftime("%Y-%m-%d")
