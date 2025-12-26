@@ -25,6 +25,14 @@ bash setup.sh
 ```
 python main.py
 ```
+7. Shell
+```
+git pull --rebase
+```
+8. Reset Shell
+```
+git reset --hard
+```
 
 ## Contact
 
