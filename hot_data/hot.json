@@ -161,7 +161,7 @@
     },
     {
         "family_name": "Xtra Combo Plus",
-        "family_code": "5dab52d5-6f02-4678-b72f-088396ceb113",
+        "family_code": "f6197a91-343c-4154-8d6a-b35f2110ce58",
         "is_enterprise": false,
         "variant_name": "Reguler",
         "option_name": "20GB",
@@ -169,7 +169,7 @@
     },
     {
         "family_name": "Conference",
-        "family_code": "f6197a91-343c-4154-8d6a-b35f2110ce58",
+        "family_code": "5dab52d5-6f02-4678-b72f-088396ceb113",
         "is_enterprise": false,
         "variant_name": "Conference",
         "option_name": "2GB",
