@@ -160,6 +160,38 @@
         "order": 1
     },
     {
+        "family_name": "BIZ Manufacture",
+        "family_code": "f3303d95-8454-4e80-bb25-38513d358a11",
+        "is_enterprise": true,
+        "variant_name": "BIZ Manufacture",
+        "option_name": "Merah Putih 6GB",
+        "order": 1
+    },
+    {
+        "family_name": "BIZ Manufacture",
+        "family_code": "f3303d95-8454-4e80-bb25-38513d358a11",
+        "is_enterprise": true,
+        "variant_name": "BIZ Manufacture",
+        "option_name": "Merah Putih 15GB",
+        "order": 2
+    },
+    {
+        "family_name": "BIZ Manufacture",
+        "family_code": "f3303d95-8454-4e80-bb25-38513d358a11",
+        "is_enterprise": true,
+        "variant_name": "BIZ Manufacture",
+        "option_name": "Merah Putih 35GB",
+        "order": 3
+    },
+    {
+        "family_name": "BIZ Manufacture",
+        "family_code": "f3303d95-8454-4e80-bb25-38513d358a11",
+        "is_enterprise": true,
+        "variant_name": "BIZ Manufacture",
+        "option_name": "Merah Putih 70GB",
+        "order": 4
+    },
+    {
         "family_name": "Conference",
         "family_code": "5dab52d5-6f02-4678-b72f-088396ceb113",
         "is_enterprise": true,
