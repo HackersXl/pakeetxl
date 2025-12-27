@@ -98,7 +98,7 @@ def show_account_menu():
         
         print(f"{bcolors.HEADER}{'-' * 55}{bcolors.ENDC}")
         print(f"{bcolors.BOLD}Command:{bcolors.ENDC}")
-        print("0: Tambah Akun")
+        print("0: Coli Anak Muda Dulu Kawan")
         print("Masukan nomor urut akun untuk berganti.")
         print(f"{bcolors.WARNING}Masukan del <nomor urut> untuk menghapus akun tertentu.{bcolors.ENDC}")
         print("00: Kembali ke menu utama")
